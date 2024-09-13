@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
-source ../util/log.sh
+# shellcheck source=../util/log.sh
+source "$(dirname "${BASH_SOURCE[0]}")"/../util/log.sh
 
 LOG_LEVEL=1
 
